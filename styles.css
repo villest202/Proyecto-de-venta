@@ -1,0 +1,280 @@
+body  {
+    margin: 0;
+    display: block;
+    margin: 8px;
+}
+ 
+.navbar{
+    background-color: rgb(252, 93, 244);
+    height: 60px;
+    width: 100%;
+    margin: 0%;
+}
+ 
+.navbar a{
+    float: right;
+    color: rgb(250, 241, 247);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0%;
+}
+ 
+.navbar a:hover {
+    background-color: rgb(80, 62, 62);
+    color: #08fcb3;
+}
+ 
+.hero-image{
+    background-image: url("https://s1.eestatic.com/2016/02/12/actualidad/actualidad_101751316_1093737_1706x960.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 2rem; 
+}
+ 
+.hero-p {
+    font-size: 2.5rem;
+    background-color: #fff;
+}
+
+.select {
+    text-align: right;
+    position:relative;
+    left: 90%;
+}
+
+.hero-menu {
+    text-align: left;
+    position:relative;
+    top: 59.5%;
+    left: 5rem;
+}
+
+.email {
+    background-color: aquamarine;
+}
+
+.enviar {
+    text-align: left;
+    position:relative;
+    top: 52%;
+    left: 12rem;
+}
+
+
+
+
+
+
+
+
+
+.article-body__title {
+    text-align: left;
+    top: 3%;
+    left: 10%;
+}
+.article-body__text {
+    text-align: left;
+    position: absolute;
+}
+ 
+.article {
+    border: 1px solid #fcf9f9;
+    width: 30%;
+    margin: 50px 20px;
+    color: rgb(12, 12, 12);
+    display: inline-block;
+}
+ 
+.article-header .article__img
+ {
+    width: 100%;
+    max-height: 250px;
+ }
+
+.article {
+    background-color: rgb(248, 248, 247);
+    transition: background-color 0.5s linear;
+}
+ 
+.article:hover {
+    background-color: rgb(253, 220, 247);
+}
+
+
+.article {
+    border-radius: 10px;
+    border-color: #c2c3c7;
+}
+
+
+
+
+
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+
+
+
+:root {
+    --default-green: #12ccec;
+    --light-green: #12ccec;
+}
+
+.img-footer {
+    height: 80px;
+    width: 20%;
+}
+
+#footer {
+    background: rgb(252, 93, 244);
+    color: rgb(255, 255, 255);
+    padding: 80px 0;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    margin: 1 40px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+    transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+    color: rgb(24, 238, 120);
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0c0c0c;
+    font-size: 1.0rem;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 20px;
+    font-size: 1.9rem;
+    transition: all 300ms ease;
+}
+
+.socials i:hover {
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    font-size: 0.70rem;
+    padding-top: 20px;
+}
+
+.footer-info .footer-info-items {
+    display: flex;
+    list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+    margin: 0 10px;
+    transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-menu-item:hover {
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country .Mexico-flag {
+    height: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
